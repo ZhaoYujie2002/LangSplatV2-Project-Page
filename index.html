@@ -99,7 +99,7 @@
               </span>
               <!-- Video Link. -->
               <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=L2OzQ91eRG4"
+                <a href="https://www.youtube.com/watch?v=KBz8lVPt7z4"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-youtube"></i>
@@ -123,7 +123,7 @@
                  <span class="icon">
                      <i class="fas fa-database"></i>
                  </span>
-                 <span>Data</span>
+                 <span>Model</span>
                  </a>
               </span>
             </div>
@@ -147,7 +147,7 @@
           </p>
         </div>
         <div class="publication-video">
-          <iframe src="https://www.youtube.com/embed/L2OzQ91eRG4"
+          <iframe src="https://www.youtube.com/embed/KBz8lVPt7z4"
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
         <!-- TODO:Video -->
@@ -199,11 +199,14 @@
           </p>
         </div>
         <div class="hero-body" style="text-align: center;">
+          <img src="./static/images/speed.png" style="width: 70%; height: auto;"//>
+        </div>
+        <div class="hero-body" style="text-align: center;">
           <img src="./static/images/speed_ablation.png" style="width: 70%; height: auto;"//>
         </div>
         <div class="content has-text-justified">
           <p>
-            This figure shows our contributions to inference speeding up.
+            These figures show our contributions to inference speeding up.
             Rendering three semantic levels in parallel can reduce the rendering time from 6.0 ms to 2.0 ms per query. The sparse coefficient field can significantly speed up the decoding stage from 83.1 ms/q to 0.1 ms/q by 
             changing the heavy weight decoder to a simple matrix multiplication operation. Efficient sparse coefficient 
             splatting method effectively transformed the 192-dimensional rendering into 12-dimensional rendering, 
@@ -216,14 +219,14 @@
         </div>
         <div class="content has-text-justified">
           <p>
-            Visualization of the open-vocabulary 3D object localization results. We observe that our LangSpaltV2 can give more accurate localization predictions compared with LangSplat. For example, our LangSplatV2 can give the correct prediction for ``pumpkin" while LangSplat entirely fails in this query.
+            Visualization of the open-vocabulary 3D object localization results. We observe that our LangSpaltV2 can give more accurate localization predictions compared with LangSplat. For example, our LangSplatV2 can give the correct prediction for "pumpkin" while LangSplat entirely fails in this query.
           </p>
         <div class="hero-body">
           <img src="./static/images/seg_paper.png"/>
         </div>
         <div class="content has-text-justified">
           <p>
-            Visualization of the open-vocabulary 3D segmentation results in three datasets. We observe that our LangSplatV2 can generate more accurate masks compared with LangSplat. For example, in the ``Kitchen" scene, LangSplat predicts a noisy mask for the ``ketchup" query, while our LangSplatV2 generates more precise and clean masks.
+            Visualization of the open-vocabulary 3D segmentation results in three datasets. We observe that our LangSplatV2 can generate more accurate masks compared with LangSplat. For example, in the "Kitchen" scene, LangSplat predicts a noisy mask for the "ketchup" query, while our LangSplatV2 generates more precise and clean masks.
           </p>
         </div>
       </div>
